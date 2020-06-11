@@ -1,6 +1,6 @@
 {
 	"components": {
-	    "x-1234-syvo-now-experience-dashboard": {
+	    "x-12167-syvo-now-experience": {
 			"uiBuilder": {
                 "associatedTypes": ["global.core"],
                 "label": "Now Task Dashboard",
@@ -10,5 +10,5 @@
 	        "innerComponents": []
 	    }
 	},
-	"scopeName": "x_1234_syvo_now"
+	"scopeName": "x_12167_syvo_now"
 }

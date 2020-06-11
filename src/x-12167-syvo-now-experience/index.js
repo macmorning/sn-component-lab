@@ -9,7 +9,7 @@ const view = (state, {updateState}) => {
 	);
 };
 
-createCustomElement('snc-syvo-now-experience-dashboard', {
+createCustomElement('x-12167-syvo-now-experience', {
 	renderer: {type: snabbdom},
 	view,
 	styles
