@@ -1,0 +1,14 @@
+{
+	"components": {
+	    "snc-syvo-now-experience-dashboard": {
+			"uiBuilder": {
+                "associatedTypes": ["global.core"],
+                "label": "Now Task Dashboard",
+                "icon": "chart-forecast-fill",
+                "description": "A task dashboard component"
+            },
+	        "innerComponents": []
+	    }
+	},
+	"scopeName": "x_snc_syvo_now_e_0"
+}
