@@ -1,8 +1,8 @@
-import '../src/syvo-now-experience-dashboard';
+import '../src/x-12167-syvo-now-experience';
 
 const el = document.createElement('DIV');
 document.body.appendChild(el);
 
 el.innerHTML = `		
-<snc-syvo-now-experience-dashboard></snc-syvo-now-experience-dashboard>
+<x-12167-syvo-now-experience></x-12167-syvo-now-experience>
 `;

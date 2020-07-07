@@ -30,8 +30,14 @@ export const actionHandlers = {
             'sysparm_display_value',
             'sysparm_exclude_reference_link'
         ],
-        successActionType: 'FETCH_TASK_DATA_SUCCEEDED'
+        batch: true,
+        successActionType: 'FETCH_TASK_DATA_SUCCEEDED',
+        startActionType: 'FETCH_TASK_DATA_START'
     }),
+    'FETCH_TASK_DATA_START': (coeffects) => {
+        console.log("start");
+        console.log(coeffects);
+    },
     'FETCH_TASK_DATA_SUCCEEDED': (coeffects) => {
         const { action, updateState } = coeffects;
         const { result } = action.payload;
